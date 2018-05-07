@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -9,22 +9,22 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -33,8 +33,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -42,19 +42,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -22454,7 +22454,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="FRAME1" gate="G$1" x="137.16" y="-165.1"/>
 <instance part="GND21" gate="1" x="177.8" y="-149.86" rot="MR0"/>
 <instance part="LOGO1" gate="G$1" x="325.12" y="-149.86"/>
-<instance part="JP2" gate="G$1" x="386.08" y="-40.64"/>
+<instance part="JP2" gate="G$1" x="292.1" y="-30.48" rot="MR0"/>
 <instance part="JP3" gate="A" x="292.1" y="-53.34" rot="MR0"/>
 <instance part="U5" gate="G$1" x="350.52" y="-116.84"/>
 <instance part="R4" gate="G$1" x="317.5" y="-99.06" rot="R90"/>
@@ -22467,8 +22467,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R10" gate="G$1" x="332.74" y="-99.06" rot="R90"/>
 <instance part="GND22" gate="1" x="368.3" y="-132.08" rot="MR0"/>
 <instance part="+3V13" gate="G$1" x="332.74" y="-88.9"/>
-<instance part="JP1" gate="A" x="386.08" y="-121.92"/>
-<instance part="GND23" gate="1" x="375.92" y="-132.08" rot="MR0"/>
+<instance part="JP1" gate="A" x="391.16" y="-121.92"/>
+<instance part="GND23" gate="1" x="381" y="-132.08" rot="MR0"/>
 <instance part="C7" gate="G$1" x="375.92" y="-99.06"/>
 <instance part="GND24" gate="1" x="375.92" y="-106.68" rot="MR0"/>
 <instance part="C8" gate="G$1" x="386.08" y="-99.06"/>
@@ -22698,8 +22698,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="4"/>
-<wire x1="383.54" y1="-124.46" x2="375.92" y2="-124.46" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="-124.46" x2="375.92" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="-124.46" x2="381" y2="-124.46" width="0.1524" layer="91"/>
+<wire x1="381" y1="-124.46" x2="381" y2="-129.54" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -22911,28 +22911,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="208.28" y1="-73.66" x2="208.28" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RXI" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PA_10"/>
-<wire x1="360.68" y1="-38.1" x2="383.54" y2="-38.1" width="0.1524" layer="91"/>
-<label x="363.22" y="-38.1" size="1.778" layer="95"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="TXO" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PA_9"/>
-<wire x1="360.68" y1="-40.64" x2="383.54" y2="-40.64" width="0.1524" layer="91"/>
-<label x="363.22" y="-40.64" size="1.778" layer="95"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="ETH/ESP_RST" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PA_3"/>
-<wire x1="320.04" y1="-30.48" x2="302.26" y2="-30.48" width="0.1524" layer="91"/>
-<label x="307.34" y="-30.48" size="1.778" layer="95"/>
-</segment>
+<net name="ENC/ESP_RST" class="0">
 <segment>
 <pinref part="U5" gate="G$1" pin="CH_PD"/>
 <pinref part="R9" gate="G$1" pin="1"/>
@@ -22941,6 +22920,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="325.12" y1="-114.3" x2="297.18" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="-104.14" x2="325.12" y2="-114.3" width="0.1524" layer="91"/>
 <junction x="325.12" y="-114.3"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PA_15"/>
+<wire x1="360.68" y1="-30.48" x2="378.46" y2="-30.48" width="0.1524" layer="91"/>
+<label x="363.22" y="-30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="RST"/>
+<wire x1="274.32" y1="-81.28" x2="289.56" y2="-81.28" width="0.1524" layer="91"/>
+<label x="276.86" y="-81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -22959,26 +22948,38 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="332.74" y1="-109.22" x2="332.74" y2="-104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="TX_ESP" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
 <pinref part="U5" gate="G$1" pin="TX"/>
-<wire x1="383.54" y1="-116.84" x2="375.92" y2="-116.84" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="-116.84" x2="375.92" y2="-114.3" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="-114.3" x2="365.76" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="-116.84" x2="381" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="381" y1="-116.84" x2="381" y2="-114.3" width="0.1524" layer="91"/>
+<wire x1="381" y1="-114.3" x2="365.76" y2="-114.3" width="0.1524" layer="91"/>
+<label x="368.3" y="-114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PA_10"/>
+<label x="363.22" y="-38.1" size="1.778" layer="95"/>
+<wire x1="360.68" y1="-38.1" x2="378.46" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="RX_ESP" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
 <pinref part="U5" gate="G$1" pin="RX"/>
-<wire x1="383.54" y1="-119.38" x2="365.76" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="-119.38" x2="365.76" y2="-119.38" width="0.1524" layer="91"/>
+<label x="368.3" y="-119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PA_9"/>
+<label x="363.22" y="-40.64" size="1.778" layer="95"/>
+<wire x1="360.68" y1="-40.64" x2="378.46" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="3"/>
-<wire x1="383.54" y1="-121.92" x2="370.84" y2="-121.92" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="-121.92" x2="370.84" y2="-121.92" width="0.1524" layer="91"/>
 <label x="370.84" y="-121.92" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -22991,11 +22992,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="309.88" y="-124.46"/>
 </segment>
 </net>
-<net name="ENC/ESP_RST" class="0">
+<net name="TX_STM" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="RST"/>
-<wire x1="274.32" y1="-81.28" x2="289.56" y2="-81.28" width="0.1524" layer="91"/>
-<label x="276.86" y="-81.28" size="1.778" layer="95"/>
+<pinref part="U2" gate="G$1" pin="PA_2"/>
+<wire x1="320.04" y1="-27.94" x2="294.64" y2="-27.94" width="0.1524" layer="91"/>
+<label x="307.34" y="-27.94" size="1.778" layer="95"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="RX_STM" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="PA_3"/>
+<wire x1="320.04" y1="-30.48" x2="294.64" y2="-30.48" width="0.1524" layer="91"/>
+<label x="307.34" y="-30.48" size="1.778" layer="95"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
